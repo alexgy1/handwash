@@ -1,8 +1,19 @@
-<h1>test12123</h1>
+<script>
+	import Timer from './Timer.svelte'
+	import HowTo from './HowTo.svelte'
+</script>
 
-<!-- 1 add google fonts  -->
-<!-- 2 sudo killall node and check the result in browser after run npm run dev  -->
-<!-- 3 add blueprint-css  npm  i blueprint-css -D -->
-<!-- 4 npm install --save-dev rollup-plugin-css-only -->
 
-<!-- 5 config rollup.config.js -->
+<h1>Handwashing App</h1>
+<Timer />
+<HowTo />
+
+<h3>
+	<a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Freader012.docslide.net%2Freader012%2Fhtml5%2F20180107%2F55cf92bc550346f57b99288e%2Fbg1.png&imgrefurl=https%3A%2F%2Fvdocuments.mx%2Fhow-do-i-wash-my-hands-properly.html&tbnid=HdUgNVZQ6KuCGM&vet=12ahUKEwj53OH6wo3xAhXYA6YKHTTwBRkQMygBegUIARCvAQ..i&docid=txhbVjCvYI29bM&w=906&h=1291&q=how%20do%20i%20wash%20my%20hands%20properly&ved=2ahUKEwj53OH6wo3xAhXYA6YKHTTwBRkQMygBegUIARCvAQ">Picture Source</a>
+	<a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Freader012.docslide.net%2Freader012%2Fhtml5%2F20180107%2F55cf92bc550346f57b99288e%2Fbg1.png&imgrefurl=https%3A%2F%2Fvdocuments.mx%2Fhow-do-i-wash-my-hands-properly.html&tbnid=HdUgNVZQ6KuCGM&vet=12ahUKEwj53OH6wo3xAhXYA6YKHTTwBRkQMygBegUIARCvAQ..i&docid=txhbVjCvYI29bM&w=906&h=1291&q=how%20do%20i%20wash%20my%20hands%20properly&ved=2ahUKEwj53OH6wo3xAhXYA6YKHTTwBRkQMygBegUIARCvAQ">Sound Source</a>
+</h3>
+<style>
+	h1, h3{
+		text-align: center;
+	}
+</style>
