@@ -6,3 +6,7 @@
 <!-- 5 config rollup.config.js -->
 
 ## 2 add components in src folder
+
+## 3 add timer and progress bar
+
+## 4 play sound and custom events
